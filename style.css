@@ -1,0 +1,51 @@
+.gpa-calculator{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 10px;
+    font-size: larger;
+}
+.calculator{
+    background-color: rgba(203, 204, 202, 0.6);
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid black;
+
+}
+.txt-field{
+    border: 1px solid black;
+    width: 150px;
+    height: 25px;
+    font-size: medium;
+}
+.credit{
+    border: 1px solid black;
+    width: 100px;
+    height: 25px;
+}
+.grade{
+    width: 70px;
+    height: 25px;
+}
+.button{
+    height: 30px;
+    width: 150px;
+    background-color: cadetblue;
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    border: none;
+}
+
+.textview{
+    width:380px;
+    height: 50px;
+    margin:5px;
+    font-size: 25px;
+    padding:5px;
+    border: 1px solid rgb(7, 7, 7);
+    text-align: center;
+}

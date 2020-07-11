@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gpa-calculator">
+    <h1>GPA CALCULATOR</h1>
+     <table class="calculator">
+        <tr>
+            <td>course</td>
+            <td>credits</td>
+            <td>grades</td>
+        </tr>
+        
+<tr>
+    <td><input class="txt-field"></td>
+    <td><input class="credit1 credit"></td>
+    <td>
+        <select name="-" class="grade1" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade1" type="button" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade1" type="button" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade1" type="button" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade1" type="button" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade1" type="button" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade1" type="button" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade1" type="button" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade1" type="button" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade1" type="button" onclick="insert(this.value)">F</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><input class="txt-field" type="txt-field" ></td>
+    <td><input class="credit2 credit" type="txt-field2" ></td>
+    <td>
+        <select name="-" class="grade2" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade2" type="button" value="'A'" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade2" type="button" value="'B'" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade2" type="button" value="'C'" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade2" type="button" value="'A'" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade2" type="button" value="'B'" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade2" type="button" value="'C'" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade2" type="button" value="'A'" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade2" type="button" value="'B'" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade2" type="button" value="'C'" onclick="insert(this.value)">F</option>
+        </select> 
+    </td>
+</tr>
+<tr>
+    <td><input class="txt-field" type="txt-field" ></td>
+    <td><input class="credit3 credit" type="txt-field3" ></td>
+    <td>
+        <select name="-" class="grade3" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade3" type="button" value="'A'" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade3" type="button" value="'B'" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade3" type="button" value="'C'" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade3" type="button" value="'A'" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade3" type="button" value="'B'" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade3" type="button" value="'C'" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade3" type="button" value="'A'" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade3" type="button" value="'B'" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade3" type="button" value="'C'" onclick="insert(this.value)">F</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><input class="txt-field" type="txt-field"></td>
+    <td><input class="credit4 credit" type="txt-field4"></td>
+    <td>
+        <select name="-" class="grade4" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade4" type="button" value="'A'" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade4" type="button" value="'B'" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade4" type="button" value="'C'" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade4" type="button" value="'A'" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade4" type="button" value="'B'" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade4" type="button" value="'C'" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade4" type="button" value="'A'" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade4" type="button" value="'B'" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade4" type="button" value="'C'" onclick="insert(this.value)">F</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><input class="txt-field" type="txt-field"></td>
+    <td><input class="credit5 credit" type="txt-field5" ></td>
+    <td>
+        <select name="-" class="grade5" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade5" type="button" value="'A'" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade5" type="button" value="'B'" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade5" type="button" value="'C'" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade5" type="button" value="'A'" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade5" type="button" value="'B'" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade5" type="button" value="'C'" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade5" type="button" value="'A'" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade5" type="button" value="'B'" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade5" type="button" value="'C'" onclick="insert(this.value)">F</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><input class="txt-field" type="txt-field" ></td>
+    <td><input class="credit6 credit" type="txt-field6" ></td>
+    <td>
+        <select name="-" class="grade6" required>
+            <option value="-">-</option>
+            <option value="A+" class="grade6" type="button" value="'A'" onclick="insert(this.value)">A+</option>
+            <option value="A" class="grade6" type="button" value="'B'" onclick="insert(this.value)">A</option>
+            <option value="B+" class="grade6" type="button" value="'C'" onclick="insert(this.value)">B+</option>
+            <option value="B" class="grade6" type="button" value="'A'" onclick="insert(this.value)">B</option>
+            <option value="B-" class="grade6" type="button" value="'B'" onclick="insert(this.value)">B-</option>
+            <option value="C+" class="grade6" type="button" value="'C'" onclick="insert(this.value)">C+</option>
+            <option value="C" class="grade6" type="button" value="'A'" onclick="insert(this.value)">C</option>
+            <option value="D" class="grade6" type="button" value="'B'" onclick="insert(this.value)">D</option>
+            <option value="F" class="grade6" type="button" value="'C'" onclick="insert(this.value)">F</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td></td>
+    <td><input class="button" type="button" value="calculate" onclick="points()"></td>
+</tr>
+    
+    </table>
+    <div class="area">
+        <form action="#">
+            <input class="textview" type="">
+        </form>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
